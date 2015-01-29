@@ -1,0 +1,6 @@
+The mobile responsiveness application was an online form mainly used to capture data a gen lead tool. In return for thier information, the application analyzes their meta data, takes screenshots of the webpage at certain dimensions, and creates a profile of said data and allows the client to review the data and download it in a PDF phamplet.
+
+It also performs maintence on itself on a daily basis by checking for old files and deleting them if they are x days old (you can set the number of days you want it to check for, by default it's 1 day.) It also checks to see if a profile has already been made and checks a static file with the users information. I did this to save on server bandwidth (after all, you don't need to wasre resources on an website that was already analyzed right?)
+
+
+The files contained are what was used to make this application. It's currently incomplete (only the pdf application portion is still being used.) Everything save for the PHPMailer and tcpdf libraries was written from the ground up.

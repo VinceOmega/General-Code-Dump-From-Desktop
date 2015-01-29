@@ -1,0 +1,220 @@
+    RECORDING_REPORT
+001      SUBROUTINE RECORDING_REPORT(arguments, results, error)
+002 *    Gene Garber
+003 *    May 15, 2012
+004 *    Rev June 19, 2012
+005 *    W3A/BP
+006 **************************************************************************
+007 *
+008      CASING ON
+009      PROG = 'RECORDING_REPORT'
+010 INCLUDE SYS/INCL COMMON.INCL
+011 DIM ORD(300); MAT ORD = ''
+012 INCLUDE SYS/INCL EQU.ORDERS
+013 *
+014      GOSUB 500 ; ** initialize variables
+015      IF ERROR EQ '' THEN GOSUB 1000 ; ** extract variables
+016      IF ERROR EQ '' THEN GOSUB 2000
+017 *
+018      GOSUB 8000 ; ** formulate results
+019      RETURN
+020 *************************************************************************
+021 500
+022      cTAB = CHAR(9) ;    cEOL = Char(13) : Char(10)
+023      results = '' ; error = '' ; args = arguments
+ 
+024      PAGE_OFFSET = 0; NUM_ROWS = 20; ROW_CNT = 0
+025      SESSIONID = '' ; CUSTCODE = ''; ORDER_STATUS = ''; SORT_BY = ''
+026      FAMILY = ''
+027      ORDER_IDS = ''; BORROWERS = ''; ADDRESSES = ''; COUNTIES = ''
+028      DOC_TYPES = ''; COMMENTS = ''; STATUSES = ''
+029      ORDER_DATES = ''; COMPREHENSIVES = ''; COMP_BDS = ''
+030      COMP_BD_ORDER_DATES = ''
+031      OPEN 'REC_IDX' TO F.RECIDX ELSE ERROR = 'Could not open REC_IDX'
+032      OPEN 'ORDERS' TO F.ORD ELSE ERROR = 'Could not open ORDERS'
+033      OPEN 'AUTOBRINGDOWN' TO F.AUTOBD ELSE ERROR = 'Could not open AUTOBRIN
+    GDOWN'
+034      OPEN 'TRACK' TO F.TRACK ELSE ERROR = 'Could not open TRACK'
+035      RETURN
+036 *************************************************************************
+037 1000
+038      cnt1 = dcount(args<1>, @VM)
+039      for i = 1 to cnt1
+040        begin case
+041          case args<1,i> EQ 'SESSIONID'  ; SESSIONID= args<2,i>
+042          case args<1,i> EQ 'CUSTCODE'   ; CUSTCODE= args<2,i>
+043          case args<1,i> EQ 'FAMILY'   ; FAMILY= args<2,i>
+044          case args<1,i> EQ 'ORDER_STATUS'; ORDER_STATUS= args<2,i>
+045          case args<1,i> EQ 'SORT_BY'   ; SORT_BY= args<2,i>
+046          case args<1,i> EQ 'PAGE_OFFSET'; PAGE_OFFSET = args<2,i>
+047          case args<1,i> EQ 'NUM_ROWS';   NUM_ROWS = args<2,i>
+048        end case
+049      next i
+050      IF CUSTCODE[1,1] EQ "," THEN CUSTCODE = CUSTCODE[2,LEN(CUSTCODE)]
+051      IF CUSTCODE[LEN(CUSTCODE),1] EQ "," THEN CUSTCODE = CUSTCODE[1,LEN(CUS
+    TCODE)-1]
+052      CALL SR9000(",",'" "',CUSTCODE,'*')
+053      RETURN
+054 *************************************************************************
+055 2000 ** get selection list of Recording orders
+056      IF '' EQ FAMILY THEN
+057        XCUTE = 'SSELECT REC_IDX WITH A1 EQ "':CUSTCODE:'"'
+058      END ELSE
+059        XCUTE = 'SSELECT REC_IDX WITH FAMILY EQ "[':FAMILY:']"'
+060      END
+061 CRT XCUTE
+062      SORT_BY = SORT_BY "MCU"
+063      BEGIN CASE
+064        CASE SORT_BY EQ 'BORROWER'
+065          EXECUTE XCUTE CAPTURING NOTHING RETURNING ERRCODE
+066          ERRCODE = ERRCODE[LEN(ERRCODE)-2,3]
+067          IF ERRCODE EQ '404' THEN
+068            EXECUTE 'SSELECT ORDERS/REC BY NAME'
+069          END
+070        CASE SORT_BY EQ 'ADDRESS'
+071          EXECUTE XCUTE CAPTURING NOTHING RETURNING ERRCODE
+072          ERRCODE = ERRCODE[LEN(ERRCODE)-2,3]
+073          IF ERRCODE EQ '404' THEN
+074            EXECUTE 'SSELECT ORDERS/REC BY ADDRESS'
+075          END
+076        CASE 1
+077          ** DO NOTHING **
+078          EXECUTE XCUTE CAPTURING NOTHING RETURNING ERRCODE
+079          ERRCODE = ERRCODE[LEN(ERRCODE)-2,3]
+080      END CASE
+081      IF ERRCODE EQ '404' THEN
+082        IF '' NE ORDER_STATUS THEN
+083          IF 'Completed' EQ ORDER_STATUS THEN
+084            XCUTE = 'SELECT TRACK WITH STATUS GE "P"'
+085            EXECUTE XCUTE CAPTURING NOTHING RETURNING ERRCODE
+086          END ELSE
+087            XCUTE = 'SELECT TRACK WITH STATUS LT "P"'
+088            EXECUTE XCUTE CAPTURING NOTHING RETURNING ERRCODE
+089          END
+090          ERRCODE = ERRCODE[LEN(ERRCODE)-2,3]
+091        END
+092      END
+093 CRT 'ERRCODE: ':ERRCODE
+094      IF ERRCODE EQ '404' THEN
+095 *
+096        FIRST = 1
+097        IF 'ALL' EQ NUM_ROWS THEN
+098          START_ROW = 0
+099        END ELSE
+100          START_ROW = PAGE_OFFSET * NUM_ROWS; ** ZERO IS FIRST PAGE **
+101        END
+102        ROW_CNT = 0
+103        DISPLAY_ROW_CNT = 0
+104 *
+105 2010   READNEXT KEY THEN
+106          ROW_CNT += 1
+107          IF ROW_CNT LE START_ROW THEN GOTO 2010
+108          IF 'ALL' NE NUM_ROWS THEN
+109            IF DISPLAY_ROW_CNT EQ NUM_ROWS THEN GOTO 2010
+110          END
+111          DISPLAY_ROW_CNT += 1
+112          READ REC.IDX FROM F.RECIDX, KEY THEN
+113            MATREAD ORD FROM F.ORD, KEY THEN
+114              IF FIRST EQ 0 THEN
+115                ORDER_IDS := cTAB
+116                BORROWERS := cTAB
+117                ADDRESSES := cTAB
+118                COUNTIES := cTAB
+119                DOC_TYPES := cTAB
+120                COMPREHENSIVES := cTAB
+121                COMP_BDS := cTAB
+122                COMP_BD_ORDER_DATES := cTAB
+123                COMMENTS := cTAB
+124                STATUSES := cTAB
+125                ORDER_DATES := cTAB
+126              END
+127              ORDER_IDS := KEY
+128              BORROWERS := O.NAMES
+129              ADDRESS = O.NUMBER:' ':O.DIR:' ':O.STREET:' ':O.ST.TYPE
+130              IF '' NE O.CONDO THEN ADDRESS := ' Unit#: ':O.CONDO
+131              IF '' NE O.CITY:O.ST:O.ZIP THEN
+132                ADDRESS := VM:O.CITY:', ':O.ST:' ':O.ZIP
+133              END
+134              ADDRESSES := TRIM(ADDRESS)
+135              COUNTIES := O.COUNTY
+136              DOC_TYPES := DOC_TYPE
+137              READ ORDTMP FROM F.ORD, ORD(99) THEN
+138                IF 'C' EQ ORDTMP<21>[1,1] THEN
+139                  COMPREHENSIVES := ORD(99)
+140                  READ AUTO.BD.REC FROM F.AUTOBD, KEY THEN
+141                    IF '' NE AUTO.BD.REC<4> THEN
+142                      COMP_BDS := AUTO.BD.REC<4>
+143                      READ COMP_BD_ORDTMP FROM F.ORD, AUTO.BD.REC<4> THEN
+144                        COMP_BD_ORDER_DATES := FIELD(COMP_BD_ORDTMP<30>,'\',
+    1)
+145                      END
+146                    END ELSE
+147                      COMP_BDS := OCONV(AUTO.BD.REC<3>,"D2-")
+148                    END
+149                  END
+150                END
+151              END
+152              READ TRACK.REC FROM F.TRACK, KEY THEN
+153                TRK.STATUS = TRACK.REC<4>
+154                BEGIN CASE
+155                  CASE TRK.STATUS EQ 'A'
+156                    STATUSES := 'Ordered'
+157                    IF '' NE TRACK.REC<5> THEN STATUSES := VM:TRACK.REC<5>
+158                  CASE TRK.STATUS EQ 'F'
+159                    STATUSES := 'Sent'
+160                    IF '' NE TRACK.REC<8> THEN STATUSES := VM:TRACK.REC<8>
+161                  CASE TRK.STATUS EQ 'M' OR TRK.STATUS EQ 'D'
+162                    STATUSES := 'Rejected'
+163                    IF '' NE TRACK.REC<6> THEN STATUSES := VM:TRACK.REC<6>
+164                  CASE TRK.STATUS EQ 'P'
+ 
+165                    STATUSES := 'Returned'
+166                    IF '' NE TRACK.REC<16> THEN STATUSES := VM:TRACK.REC<16>
+ 
+167                  CASE TRK.STATUS EQ 'R'
+168                    STATUSES := 'Returned'
+169                    IF '' NE TRACK.REC<18> THEN
+170                      STATUSES := VM:TRACK.REC<18>
+171                    END ELSE
+172                      IF '' NE TRACK.REC<16> THEN
+173                        STATUSES := VM:TRACK.REC<16>
+174                      END
+175                    END
+176                  CASE 1
+177                    STATUSES := TRK.STATUS
+178                END CASE
+179                CALL SR9000(cTAB,' ',TRACK.REC<25>,'*')
+180                COMMENTS := TRACK.REC<25>
+181              END
+182              ORDER_DATES := FIELD(ORD(30),'\',1)
+183              FIRST = 0
+184            END
+185          END
+186          GOTO 2010
+187        END
+188      END
+189      RETURN
+190 *************************************************************************
+191 8000
+192      results = "<D3DATA>" : cEOL
+193 *
+194      results := 'ORDER_IDS' : cTab : 'S' : cTab : ORDER_IDS : cEOL
+195      results := 'BORROWERS' : cTab : 'S' : cTab : BORROWERS : cEOL
+196      results := 'ADDRESSES' : cTab : 'S' : cTab : ADDRESSES : cEOL
+197      results := 'DOC_TYPES' : cTab : 'S' : cTab : DOC_TYPES : cEOL
+198      results := 'COUNTIES' : cTab : 'S' : cTab : COUNTIES : cEOL
+199      results := 'COMPREHENSIVES' : cTab : 'S' : cTab : COMPREHENSIVES : cEO
+    L
+200      results := 'COMP_BDS' : cTab : 'S' : cTab : COMP_BDS : cEOL
+201      results := 'COMP_BD_ORDER_DATES' : cTab : 'S' : cTab : COMP_BD_ORDER_D
+    ATES : cEOL
+202      results := 'COMMENTS' : cTab : 'S' : cTab : COMMENTS : cEOL
+203      results := 'STATUSES' : cTab : 'S' : cTab : STATUSES : cEOL
+204      results := 'ORDER_DATES' : cTab : 'S' : cTab : ORDER_DATES : cEOL
+205      results := 'ROW_CNT' : cTab : 'S' : cTab : ROW_CNT : cEOL
+206 *
+207      IF error EQ '' THEN error = 'OK'
+208      results := "ERROR" : cTAB : 'S' : cTAB : error : cEOL
+209      results := "</D3DATA>"
+210      RETURN
+211 *************************************************************************

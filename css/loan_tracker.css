@@ -1,0 +1,217 @@
+
+/*
+Author: Larry Stanfield
+Vince.Omega@gmail.com
+
+Stylesheet for the tracking report on tax_watch_manager.cfm
+
+*/
+
+/*.main_body{
+text-shadow 3px 3px #000;
+-moz-box-shadow: 3px 3px 4px #000;
+-webkit-box-shadow: 3px 3px 4px #000;
+box-shadow: 3px 3px 4px #000;
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+} */
+
+.tracking_header{
+background: #848482;
+color: #FFF;
+text-align: center;
+width: 100%;
+
+}
+
+.tracking_header th{
+background: #848482;
+color: #FFF;
+width: 100%;
+font-size: 1.4em;
+font-family: verdana;
+text-align: center;
+}
+
+.tracking_header-sub{
+background: #F8F8FF;
+color:  #1034A6;
+}
+
+.tracking_header-sub td{
+border-left:1px solid #F8F8FF;
+border-right:1px solid #F8F8FF;
+font-size: 1.0em;
+font-weight:bold;
+font-family: verdana;
+}
+
+.info_row{
+background: #D8D8D8;
+color:  #1034A6;
+border-left: 1px solid #F8F8FF;
+border-right: 1px solid #F8F8FF;
+
+}
+
+.info_row td{
+border-left: 1px solid #F8F8FF;
+border-right: 1px solid #F8F8FF;
+font-size: 1.0em;
+font-family: verdana;
+}
+
+.btn{
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  text-decoration: none;
+	color: #FFF;
+}
+
+.btn:hover{
+text-decoration: none;
+color: #FFF;
+}
+
+a.btn-primary{
+
+padding: 5px 15px;
+  font-size: 20.5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+		background: #1034A6; /*Egyptian Blue*/
+		  color: #FFF;
+border: 1px solid black;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+text-shadow 3px 3px #000;
+-moz-box-shadow: 3px 3px 4px #000;
+-webkit-box-shadow: 3px 3px 4px #000;
+box-shadow: 3px 3px 4px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); 
+text-decoration: none;
+color: #FFF;
+}
+
+.btn-primary{
+
+padding: 5px 15px;
+  font-size: 20.5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+		background: #1034A6; /*Egyptian Blue*/
+		  color: #FFF;
+border: 1px solid black;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+text-shadow 3px 3px #000;
+-moz-box-shadow: 3px 3px 4px #000;
+-webkit-box-shadow: 3px 3px 4px #000;
+box-shadow: 3px 3px 4px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); 
+text-decoration: none;
+color: #FFF;
+}
+
+.btn-primary:hover{
+text-decoration: none;
+color: #FFF;
+background: #89CFF0; /*Baby Blue*/
+}
+
+.img-report{
+border: 0px;
+
+}
+
+.img-report img{
+border: 0px;
+}
+
+#ui-datepicker-div{
+display: none;
+
+text-shadow 3px 3px #000;
+-moz-box-shadow: 3px 3px 4px #000;
+-webkit-box-shadow: 3px 3px 4px #000;
+box-shadow: 3px 3px 4px #000;
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); 
+
+}
+
+.white{
+background: #F8F8FF; /*Ghost White */
+border-left: 1px solid #F8F8FF;
+border-right: 1px solid #F8F8FF;
+}
+
+.gray{
+background: #D8D8D8;
+border-left: 1px solid #F8F8FF;
+border-right: 1px solid #F8F8FF;
+}
+
+
+.ui-datepicker-header{
+background: #000;
+color: #FFF;
+}
+
+.ui-datepicker-title{
+background: #686868;
+color: #FFF;
+}
+
+.ui-datepicker-month{
+background: #686868;
+color: #FFF;
+
+}
+
+.ui-datepicker-year{
+background: #686868;
+color: #FFF;
+
+}
+
+.ui-datepicker-calendar{
+background: #D8D8D8;
+color: #000;
+}
+
+/*
+.ui-icon-circle-triangle-e{
+margin: 0 0 0 60px;
+}*/
+
+.count td{
+background: #848482;
+color: #FFF;
+width: 100%;
+font-size: 1.2em;
+font-family: verdana;
+}
+
+input.date-start:hover{
+background: #FFFACD; /*lemon Chiffon Cake*/
+}
+
+input.date-end:hover{
+background: #FFFACD; /*lemon Chiffon Cake*/
+}
+
+input.btn:hover{
+background: #89CFF0; /*Baby Blue*/
+}

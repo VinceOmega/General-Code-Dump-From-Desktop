@@ -1,0 +1,226 @@
+<store>
+    
+    <storeLocatorViewNew id='62' storeName='Wegmans Food Market' address='5028 W Ridge Rd' city='Erie' state= 'PA' zip= '16506' lat= '42.070065' long= '-80.1908319' />
+    <storeLocatorViewNew id='63' storeName='Wegmans Food Market' address='6143 Peach St' city='Erie' state= 'PA' zip= '16509' lat= '42.0602253' long= '-80.0917101' />
+    <storeLocatorViewNew id='64' storeName='Wegmans Food Market' address='6416 Carlisle Pike Ste 2000' city='Mechanicsburg' state= 'PA' zip= '17050' lat= '40.2496253' long= '-77.0088758' />
+    <storeLocatorViewNew id='65' storeName='Wegmans Food Market' address='345 Colonnade Blvd' city='State College' state= 'PA' zip= '16803' lat= '40.8119362' long= '-77.9079888' />
+    <storeLocatorViewNew id='66' storeName='Wegmans Food Market' address='1405 Main St' city='Warrington' state= 'PA' zip= '18976' lat= '40.2307534' long= '-75.1320699' />
+    <storeLocatorViewNew id='67' storeName='Wegmans Food Market' address='500 Montgomery Mall' city='North Wales' state= 'PA' zip= '19454' lat= '40.2374108' long= '-75.2465444' />
+    <storeLocatorViewNew id='68' storeName='Wegmans Food Market' address='50 Foundry Way' city='Malvern' state= 'PA' zip= '19355' lat= '40.0481394' long= '-75.5230192' />
+    <storeLocatorViewNew id='69' storeName='Wegmans Food Market' address='3791 Easton Nazareth Hwy' city='Easton' state= 'PA' zip= '18045' lat= '40.7152188' long= '-75.2880146' />
+    <storeLocatorViewNew id='70' storeName='Wegmans Food Market' address='5000 Wegmans Dr' city='Bethlehem' state= 'PA' zip= '18017' lat= '40.665792' long= '-75.389207' />
+    <storeLocatorViewNew id='71' storeName='Wegmans Food Market' address='600 Commerce Dr' city='Collegeville' state= 'PA' zip= '19426' lat= '40.1644306' long= '-75.4835349' />
+    <storeLocatorViewNew id='72' storeName='Wegmans Food Market' address='1 Village Dr' city='King of Prussia' state= 'PA' zip= '19406' lat= '40.0836261' long= '-75.4020809' />
+    <storeLocatorViewNew id='73' storeName='Wegmans Food Market' address='3900 W Tilghman St' city='Allentown' state= 'PA' zip= '18104' lat= '40.5922529' long= '-75.5420335' />
+    <storeLocatorViewNew id='74' storeName='Wegmans Food Market' address='1056 E Lancaster Ave' city='Downingtown' state= 'PA' zip= '19335' lat= '40.0169044' long= '-75.6777016' />
+    <storeLocatorViewNew id='75' storeName='Wegmans Food Market' address='201 William St' city='Williamsport' state= 'PA' zip= '17701' lat= '41.2386566' long= '-77.0033884' />
+    <storeLocatorViewNew id='76' storeName='Wegmans Food Market' address='220 Highland Park Blvd' city='Wilkes Barre' state= 'PA' zip= '18702' lat= '41.2364807' long= '-75.861615' />
+    <storeLocatorViewNew id='77' storeName='Wegmans Food Market' address='1315 Scranton Carbondale Rt 6' city='Scranton' state= 'PA' zip= '18508' lat= '41.459605' long= '-75.6731734' />
+    
+    <storeLocatorViewNew id='513' storeName='ShopRite' address='2385 W Cheltenham Ave' city='Philadelphia' state= 'PA' zip= '19150' lat= '40.0773099' long= '-75.1641307' />
+    <storeLocatorViewNew id='514' storeName='ShopRite' address='11000 Roosevelt Blvd' city='Philadelphia' state= 'PA' zip= '19116' lat= '40.102161' long= '-75.009485' />
+    
+    <storeLocatorViewNew id='519' storeName='ShopRite' address='6725 Frankford Ave' city='Philadelphia' state= 'PA' zip= '19135' lat= '40.0315681' long= '-75.0513168' />
+
+    <storeLocatorViewNew id='522' storeName='ShopRite' address='1568 Chester Pike' city='Eddystone' state= 'PA' zip= '19022' lat= '39.8661134' long= '-75.3422405' />
+    <storeLocatorViewNew id='523' storeName='ShopRite' address='6301 Oxford Ave' city='Philadelphia' state= 'PA' zip= '19111' lat= '40.0438523' long= '-75.0880037' />
+  
+    <storeLocatorViewNew id='525' storeName='ShopRite' address='2946 Island Ave' city='Philadelphia' state= 'PA' zip= '19153' lat= '39.9015435' long= '-75.2416721' />
+   
+    <storeLocatorViewNew id='528' storeName='ShopRite' address='6710 Haverford Ave' city='Philadelphia' state= 'PA' zip= '19151' lat= '39.9724547' long= '-75.2535227' />
+    <storeLocatorViewNew id='529' storeName='ShopRite' address='Fox St &amp; Roberts Ave' city='Philadelphia' state= 'PA' zip= '19129' lat= '39.7165937' long= '-104.9951738' />
+   
+    <storeLocatorViewNew id='531' storeName='ShopRite' address='101 E Olney Ave' city='Philadelphia' state= 'PA' zip= '19120' lat= '40.0368925' long= '-75.1190355' />
+   
+    <storeLocatorViewNew id='533' storeName='ShopRite' address='24th St &amp; Oregon Ave' city='Philadelphia' state= 'PA' zip= '19145' lat= '39.919377' long= '-75.186125' />
+    <storeLocatorViewNew id='534' storeName='ShopRite' address='29 Snyder Ave' city='Philadelphia' state= 'PA' zip= '19148' lat= '39.9232261' long= '-75.1448334' />
+   
+    <storeLocatorViewNew id='536' storeName='ShopRite' address='1575 N 52nd St' city='Philadelphia' state= 'PA' zip= '19131' lat= '39.97903' long= '-75.2238431' />
+    <storeLocatorViewNew id='537' storeName='ShopRite' address='3745 Aramingo Ave' city='Philadelphia' state= 'PA' zip= '19137' lat= '39.994705' long= '-75.0916465' />
+    
+   
+    <storeLocatorViewNew id='708' storeName='GIANT' address='1008 LITITZ PIKE' city='LITITZ' state= 'PA' zip= '17543-0000' lat= '40.1292995' long= '-76.3049596' />
+    <storeLocatorViewNew id='709' storeName='GIANT' address='6560 CARLISLE PIKE' city='MECHANICSBURG' state= 'PA' zip= '17055-0000' lat= '40.2479493' long= '-77.0313715' />
+    <storeLocatorViewNew id='710' storeName='GIANT' address='136 KLINE VILLAGE' city='HARRISBURG' state= 'PA' zip= '17104-0000' lat= '40.2709638' long= '-76.8446448' />
+    <storeLocatorViewNew id='711' storeName='GIANT' address='2450 CHEMICAL ROAD' city='PLYMOUTH MTNG' state= 'PA' zip= '19462-0000' lat= '40.1059155' long= '-75.2919896' />
+    <storeLocatorViewNew id='712' storeName='GIANT' address='2032 E PLEASANT VALLE' city='ALTOONA' state= 'PA' zip= '16602-0000' lat= '40.5550292' long= '-78.3444008' />
+    <storeLocatorViewNew id='713' storeName='GIANT' address='1278 S MARKET STREET' city='ELIZABETHTOWN' state= 'PA' zip= '17022-0000' lat= '40.139351' long= '-76.590736' />
+    <storeLocatorViewNew id='714' storeName='GIANT' address='760 ROUTE 113' city='SOUDERTON' state= 'PA' zip= '18964-0000' lat= '40.3163881' long= '-75.3094802' />
+    <storeLocatorViewNew id='715' storeName='GIANT' address='1200 W MARKET STREET' city='YORK' state= 'PA' zip= '17404-0000' lat= '39.9544148' long= '-76.7536816' />
+    <storeLocatorViewNew id='716' storeName='GIANT' address='700 NUTT ROAD' city='PHOENIXVILLE' state= 'PA' zip= '19460-0000' lat= '40.1337355' long= '-75.5353494' />
+    <storeLocatorViewNew id='717' storeName='GIANT' address='200 S DORCAS STREET' city='LEWISTOWN' state= 'PA' zip= '17044-0000' lat= '40.5963718' long= '-77.5694573' />
+    <storeLocatorViewNew id='718' storeName='GIANT' address='235 N RESEVOIR ST' city='LANCASTER' state= 'PA' zip= '17602-0000' lat= '40.044053' long= '-76.2891' />
+    <storeLocatorViewNew id='719' storeName='GIANT' address='550 CENTERVILLE ROAD' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.054449' long= '-76.400063' />
+    <storeLocatorViewNew id='720' storeName='GIANT' address='1544 RT61 HWY STE6100' city='POTTSVILLE' state= 'PA' zip= '17901-0000' lat= '40.6404032' long= '-76.1855154' />
+    <storeLocatorViewNew id='721' storeName='GIANT' address='1511 E MAIN ST' city='WAYNESBORO' state= 'PA' zip= '17268-0000' lat= '39.7497369' long= '-77.5650747' />
+    <storeLocatorViewNew id='722' storeName='GIANT' address='1880 LEITHSVILLE RD' city='HELLERSTOWN' state= 'PA' zip= '18055-0000' lat= '40.5652362' long= '-75.3387075' />
+    <storeLocatorViewNew id='723' storeName='GIANT' address='849 WEST BALTIMORE ST' city='WEST GROVE' state= 'PA' zip= '19390-0000' lat= '40.6341295' long= '-76.4138524' />
+    <storeLocatorViewNew id='724' storeName='GIANT' address='2721 STREET ROAD' city='BENSALEM' state= 'PA' zip= '19020-0000' lat= '40.1097212' long= '-74.9528801' />
+    <storeLocatorViewNew id='725' storeName='GIANT' address='2641 SHILLINGTON ROAD' city='WEST READING' state= 'PA' zip= '19608-0000' lat= '40.3155372' long= '-76.000131' />
+    <storeLocatorViewNew id='726' storeName='GIANT' address='141 E SWEDESFORD RD' city='EXTON' state= 'PA' zip= '19341-0000' lat= '40.0331133' long= '-75.631029' />
+    <storeLocatorViewNew id='727' storeName='GIANT' address='993 WAYNE AVENUE' city='CHAMBERSBURG' state= 'PA' zip= '17201-0000' lat= '39.9160332' long= '-77.6516692' />
+    <storeLocatorViewNew id='728' storeName='GIANT' address='455 EISENHOWER DRIVE' city='HANOVER' state= 'PA' zip= '17331-0000' lat= '39.8253853' long= '-76.9739477' />
+    <storeLocatorViewNew id='729' storeName='GIANT' address='325 WEST FREEDOM AVE' city='BURNHAM' state= 'PA' zip= '17009-0000' lat= '40.6304918' long= '-77.575497' />
+    <storeLocatorViewNew id='730' storeName='GIANT' address='397 BALTIMORE RD' city='SHIPPENSBERG' state= 'PA' zip= '17257-0000' lat= '40.048204' long= '-77.501997' />
+    <storeLocatorViewNew id='731' storeName='GIANT' address='700 STONY HILL RD' city='YARDLEY' state= 'PA' zip= '19067-0000' lat= '40.2222311' long= '-74.873637' />
+    <storeLocatorViewNew id='732' storeName='GIANT' address='1360 COLUMBIA AVE' city='LANCASTER' state= 'PA' zip= '17603-0000' lat= '40.0382585' long= '-76.3398998' />
+    
+    <storeLocatorViewNew id='734' storeName='GIANT' address='255 NORTHLAND CENTER' city='STATE COLLEGE' state= 'PA' zip= '16803-0000' lat= '40.8028628' long= '-77.8869507' />
+    <storeLocatorViewNew id='735' storeName='GIANT' address='3015 WEST EMMAUS AVE' city='ALLENTOWN' state= 'PA' zip= '18103-0000' lat= '40.5575794' long= '-75.4819694' />
+    <storeLocatorViewNew id='736' storeName='GIANT' address='1950 S PLEASANT VALLE' city='WINCHESTER' state= 'VA' zip= '22601-0000' lat= '39.1623174' long= '-78.1660055' />
+    <storeLocatorViewNew id='737' storeName='GIANT' address='275 PAULINE DR' city='YORK' state= 'PA' zip= '17402-0000' lat= '39.935471' long= '-76.6823623' />
+    <storeLocatorViewNew id='738' storeName='GIANT' address='70 S LOCUST ST' city='HAZLETON' state= 'PA' zip= '18201-0000' lat= '40.9547899' long= '-75.9809719' />
+    <storeLocatorViewNew id='739' storeName='GIANT' address='539 NORTH OAK AVE' city='ALDAN' state= 'PA' zip= '19018-0000' lat= '39.9202521' long= '-75.2982195' />
+    <storeLocatorViewNew id='740' storeName='GIANT' address='2670 EGYPT RD STE 100' city='NORRISTOWN' state= 'PA' zip= '19403-0000' lat= '40.1293279' long= '-75.4056713' />
+    <storeLocatorViewNew id='741' storeName='GIANT' address='2415 EAST MARKET ST' city='YORK' state= 'PA' zip= '17402-0000' lat= '39.9753705' long= '-76.6787684' />
+    <storeLocatorViewNew id='742' storeName='GIANT' address='450 EAST MAIN ST' city='MIDDLETOWN' state= 'PA' zip= '17057-0000' lat= '40.200033' long= '-76.722719' />
+    <storeLocatorViewNew id='743' storeName='GIANT' address='314 HORSHAM RD' city='HORSHAM' state= 'PA' zip= '19044-0000' lat= '40.1820888' long= '-75.1345579' />
+    <storeLocatorViewNew id='744' storeName='GIANT' address='3777 PETERS MOUNTAIN' city='HALIFAX' state= 'PA' zip= '17032-0000' lat= '40.4540591' long= '-76.9263217' />
+    <storeLocatorViewNew id='745' storeName='GIANT' address='1760 DEKALB PIKE' city='BLUE BELL' state= 'PA' zip= '19422-0000' lat= '40.1490756' long= '-75.3060261' />
+    <storeLocatorViewNew id='746' storeName='GIANT' address='837 MALE RD' city='WIND GAP' state= 'PA' zip= '18091-0000' lat= '40.8383407' long= '-75.2985253' />
+    <storeLocatorViewNew id='747' storeName='GIANT' address='471 OXFORD VALLEY RD' city='FAIRLESS HILLS' state= 'PA' zip= '19030-0000' lat= '40.1692983' long= '-74.850136' />
+    <storeLocatorViewNew id='748' storeName='GIANT' address='466 2ND ST PIKE' city='SOUTHAMPTON' state= 'PA' zip= '18966-0000' lat= '40.1690939' long= '-75.0480135' />
+    <storeLocatorViewNew id='749' storeName='GIANT' address='1250 COCOA AVE' city='HERSHEY' state= 'PA' zip= '17033-0000' lat= '40.269067' long= '-76.649171' />
+    <storeLocatorViewNew id='750' storeName='GIANT' address='481 WEST PENN AVE' city='CLEONA' state= 'PA' zip= '17042-0000' lat= '40.337237' long= '-76.485915' />
+    <storeLocatorViewNew id='751' storeName='GIANT' address='14 NEWPORT PLAZA' city='NEWPORT' state= 'PA' zip= '17074-0000' lat= '40.4561749' long= '-77.119823' />
+    <storeLocatorViewNew id='752' storeName='GIANT' address='190 FLOWING SPRING RD' city='CHARLESTOWN' state= 'WV' zip= '25414-0000' lat= '39.297671' long= '-77.842332' />
+    <storeLocatorViewNew id='753' storeName='GIANT' address='833 W TRENTON AVE' city='MORRISVILLE' state= 'PA' zip= '19067-0000' lat= '40.2085289' long= '-74.7994369' />
+   
+    <storeLocatorViewNew id='755' storeName='GIANT' address='350 SCARLET RD' city='KENNETT SQ' state= 'PA' zip= '19348-0000' lat= '39.8400599' long= '-75.7317823' />
+    <storeLocatorViewNew id='756' storeName='GIANT' address='6542-E LOGAN SQ' city='NEW HOPE' state= 'PA' zip= '18938-0000' lat= '40.3588091' long= '-74.9767261' />
+   
+    <storeLocatorViewNew id='758' storeName='GIANT' address='2222 E COLLEGE AVE' city='STATE COLLEGE' state= 'PA' zip= '16801-0000' lat= '40.822684' long= '-77.812128' />
+    <storeLocatorViewNew id='759' storeName='GIANT' address='255S SPRING GARDEN ST' city='CARLISLE' state= 'PA' zip= '17013-0000' lat= '40.1970604' long= '-77.1815641' />
+    <storeLocatorViewNew id='760' storeName='GIANT' address='1393 DILWORTHTWN XING' city='WEST CHESTER' state= 'PA' zip= '19382-0000' lat= '39.9021375' long= '-75.5615201' />
+    <storeLocatorViewNew id='761' storeName='GIANT' address='10 NEWPORT RD' city='LEOLA' state= 'PA' zip= '17540-0000' lat= '40.086129' long= '-76.1913826' />
+    <storeLocatorViewNew id='762' storeName='GIANT' address='255 CUMBERLAND PWKY' city='MECHANICSBURG' state= 'PA' zip= '17055-0000' lat= '40.194355' long= '-76.9862168' />
+    <storeLocatorViewNew id='763' storeName='GIANT' address='50 BRIAR CREEK PLAZA' city='BERWICK' state= 'PA' zip= '18603-0000' lat= '41.0488431' long= '-76.2757672' />
+    <storeLocatorViewNew id='764' storeName='GIANT' address='1969 EAST 3RD ST' city='WILLIAMSPORT' state= 'PA' zip= '17701-0000' lat= '41.2497899' long= '-76.9612089' />
+    <storeLocatorViewNew id='765' storeName='GIANT' address='2918 EASTON AVE' city='BETHLEHEM' state= 'PA' zip= '18017-0000' lat= '40.648023' long= '-75.338247' />
+    <storeLocatorViewNew id='766' storeName='GIANT' address='3070 TILGHMAN ST' city='ALLENTOWN' state= 'PA' zip= '18104-0000' lat= '40.5981896' long= '-75.5256057' />
+    <storeLocatorViewNew id='767' storeName='GIANT' address='500 PROGRESS AVE' city='POTTSVILLE' state= 'PA' zip= '17901-0000' lat= '40.6892542' long= '-76.1964517' />
+    <storeLocatorViewNew id='768' storeName='GIANT' address='1100 ROCKLAND ST' city='READING' state= 'PA' zip= '19604-0000' lat= '40.364415' long= '-75.9139129' />
+    <storeLocatorViewNew id='769' storeName='GIANT' address='5074 JONESTOWN RD' city='HARRISBURG' state= 'PA' zip= '17112-0000' lat= '40.3103818' long= '-76.803976' />
+    <storeLocatorViewNew id='770' storeName='GIANT' address='130 OLD YORK RD' city='NEW CUMBERLAND' state= 'PA' zip= '17070-0000' lat= '40.2218138' long= '-76.8580725' />
+    <storeLocatorViewNew id='771' storeName='GIANT' address='801 S 25TH ST' city='EASTON' state= 'PA' zip= '18045-0000' lat= '40.67685' long= '-75.248946' />
+    <storeLocatorViewNew id='772' storeName='GIANT' address='720-D WEST STREET RD' city='WARMINSTER' state= 'PA' zip= '18974-0000' lat= '40.2072339' long= '-75.1009232' />
+    <storeLocatorViewNew id='773' storeName='GIANT' address='4801 EDGEMONT AVE' city='BROOKHAVEN' state= 'PA' zip= '19015-0000' lat= '39.8767089' long= '-75.39494' />
+    <storeLocatorViewNew id='774' storeName='GIANT' address='328 CHURCH ST' city='DANVILLE' state= 'PA' zip= '17821-0000' lat= '40.9618743' long= '-76.6137685' />
+    <storeLocatorViewNew id='775' storeName='GIANT' address='310 E PENN DR' city='ENOLA' state= 'PA' zip= '17025-0000' lat= '40.2904231' long= '-76.9474868' />
+    <storeLocatorViewNew id='776' storeName='GIANT' address='1201 KNAPP RD' city='NORTH WALES' state= 'PA' zip= '19454-0000' lat= '40.2275674' long= '-75.2405534' />
+    <storeLocatorViewNew id='777' storeName='GIANT' address='835 BOWMAN AVE' city='LEBANON' state= 'PA' zip= '17046-0000' lat= '40.3437053' long= '-76.3956659' />
+    <storeLocatorViewNew id='778' storeName='GIANT' address='44 NATURAL SPRINGS RD' city='GETTYSBURG' state= 'PA' zip= '17325-0000' lat= '39.8382278' long= '-77.2064374' />
+    <storeLocatorViewNew id='779' storeName='GIANT' address='3301 TRINDLE RD' city='CAMP HILL' state= 'PA' zip= '17011-0000' lat= '40.2364484' long= '-76.9357217' />
+    <storeLocatorViewNew id='780' storeName='GIANT' address='14635 MT. AIRY RD' city='SHREWSBURY' state= 'PA' zip= '17361-0000' lat= '39.7727049' long= '-76.6694671' />
+    <storeLocatorViewNew id='781' storeName='GIANT' address='360 SOUTH 2ND ST' city='MCCONNELLSBURG' state= 'PA' zip= '17233-0000' lat= '39.927703' long= '-78.000403' />
+    <storeLocatorViewNew id='782' storeName='GIANT' address='600 E.LANCASTER AVE' city='READING' state= 'PA' zip= '19607-0000' lat= '40.3074355' long= '-75.9542531' />
+
+    <storeLocatorViewNew id='784' storeName='GIANT' address='7673 LAKE RAYSTOWN SC' city='HUNTINGTON' state= 'PA' zip= '16652-0000' lat= '40.5087323' long= '-77.9510209' />
+    <storeLocatorViewNew id='785' storeName='GIANT' address='3400 CONCORD ROAD' city='ASTON' state= 'PA' zip= '19014-0000' lat= '39.8675294' long= '-75.4239254' />
+    <storeLocatorViewNew id='786' storeName='GIANT' address='277 HERSHEY RD' city='HUMMELSTOWN' state= 'PA' zip= '17036-0000' lat= '40.3112933' long= '-76.6998778' />
+  
+ 
+    <storeLocatorViewNew id='789' storeName='GIANT' address='1824 RIDGE PIKE' city='ROYERSFORD' state= 'PA' zip= '19468-0000' lat= '40.2117041' long= '-75.499367' />
+
+    <storeLocatorViewNew id='791' storeName='GIANT' address='100 SCOTT TOWN CNTR' city='BLOOMSBURG' state= 'PA' zip= '17815-0000' lat= '41.0077298' long= '-76.4112751' />
+    <storeLocatorViewNew id='792' storeName='GIANT' address='221 GLIMCHER DRIVE' city='DUNCANSVILLE' state= 'PA' zip= '16635-0000' lat= '40.4313402' long= '-78.416543' />
+    <storeLocatorViewNew id='793' storeName='GIANT' address='2104 VAN REED ROAD' city='WEST LAWN' state= 'PA' zip= '19609-0000' lat= '40.3441272' long= '-76.0019162' />
+    <storeLocatorViewNew id='794' storeName='GIANT' address='800 VANDERBILT ROAD' city='CONNELLSVILLE' state= 'PA' zip= '15425-0000' lat= '40.0189441' long= '-79.6035244' />
+    <storeLocatorViewNew id='795' storeName='GIANT' address='698 DOWINGTOWN PIKE' city='WEST CHESTER' state= 'PA' zip= '19380-0000' lat= '39.960495' long= '-75.6219205' />
+    <storeLocatorViewNew id='796' storeName='GIANT' address='200 E CHESTNUT AVE' city='ALTOONA' state= 'PA' zip= '16601-0000' lat= '40.5263705' long= '-78.3910551' />
+    <storeLocatorViewNew id='797' storeName='GIANT' address='1255 CARLISLE ROAD' city='YORK' state= 'PA' zip= '17404-0000' lat= '39.9649996' long= '-76.7707324' />
+
+   
+    <storeLocatorViewNew id='801' storeName='GIANT' address='3175 CAPE HORN RD' city='RED LION' state= 'PA' zip= '17356-0000' lat= '39.918216' long= '-76.628641' />
+    <storeLocatorViewNew id='802' storeName='GIANT' address='3477 LINCOLN HIGHWAY' city='THORNDALE' state= 'PA' zip= '19372-0000' lat= '39.996629' long= '-75.754863' />
+    <storeLocatorViewNew id='803' storeName='GIANT' address='4211 UNION DEPOSIT RD' city='HARRISBURG' state= 'PA' zip= '17111-0000' lat= '40.277636' long= '-76.8169786' />
+    <storeLocatorViewNew id='804' storeName='GIANT' address='1600 NAY AUG AVE' city='SCRANTON' state= 'PA' zip= '18509-0000' lat= '41.4341861' long= '-75.6587116' />
+    <storeLocatorViewNew id='805' storeName='GIANT' address='2130 PALOMINO RD' city='DOVER' state= 'PA' zip= '17315-0000' lat= '39.9942901' long= '-76.8395295' />
+   
+    <storeLocatorViewNew id='807' storeName='GIANT' address='1570 OAKLAND AVENUE' city='INDIANA' state= 'PA' zip= '15701-0000' lat= '40.6147888' long= '-79.1734501' />
+    <storeLocatorViewNew id='808' storeName='GIANT' address='2910 SPRINGFIELD RD' city='BROOMALL' state= 'PA' zip= '19008-0000' lat= '39.9825347' long= '-75.3734313' />
+    <storeLocatorViewNew id='809' storeName='GIANT' address='830 NORTH U.S. 15' city='DILLSBURG' state= 'PA' zip= '17019-0000' lat= '40.129498' long= '-77.0212491' />
+    <storeLocatorViewNew id='810' storeName='GIANT' address='2174 WEST UNION BLVD' city='BETHLEHEM' state= 'PA' zip= '18018-0000' lat= '40.6263458' long= '-75.419644' />
+    <storeLocatorViewNew id='811' storeName='GIANT' address='216 E FAIRMONT ST RT9' city='COOPERSBURG' state= 'PA' zip= '18036-0000' lat= '40.5114885' long= '-75.390458' />
+    <storeLocatorViewNew id='812' storeName='GIANT' address='1550 MAIN ST #2' city='DICKSON CITY' state= 'PA' zip= '18447-0000' lat= '41.475905' long= '-75.603847' />
+    <storeLocatorViewNew id='813' storeName='GIANT' address='967 S TWP LINE RD' city='ROYERSFORD' state= 'PA' zip= '19468-0000' lat= '40.194661' long= '-75.529754' />
+    <storeLocatorViewNew id='814' storeName='GIANT' address='202 CHESTNUT STREET' city='COPLAY' state= 'PA' zip= '18037-0000' lat= '40.6742289' long= '-75.494213' />
+    <storeLocatorViewNew id='815' storeName='GIANT' address='1241 BLAKESLEE BLVD' city='LEHIGHTON' state= 'PA' zip= '18235-0000' lat= '40.8145365' long= '-75.7322404' />
+    <storeLocatorViewNew id='816' storeName='GIANT' address='859 NAZARETH PIKE' city='NAZARETH' state= 'PA' zip= '18064-0000' lat= '40.7308686' long= '-75.315485' />
+    <storeLocatorViewNew id='817' storeName='GIANT' address='4001 NEW FALLS ROAD' city='LEVITTOWN' state= 'PA' zip= '19056-0000' lat= '40.1339599' long= '-74.8857138' />
+    <storeLocatorViewNew id='818' storeName='GIANT' address='22 HOOVER AVENUE' city='DUBOIS' state= 'PA' zip= '15801-0000' lat= '41.1194' long= '-78.756128' />
+    <storeLocatorViewNew id='819' storeName='GIANT' address='300 E BALTIMORE AVE' city='LANSDOWNE' state= 'PA' zip= '19050-0000' lat= '39.9390624' long= '-75.2637637' />
+    <storeLocatorViewNew id='820' storeName='GIANT' address='301 TOWN CENTER BLVD' city='EASTON' state= 'PA' zip= '18040-0000' lat= '40.7126631' long= '-75.2206216' />
+    <storeLocatorViewNew id='821' storeName='GIANT' address='5301 SIMPSON FERRY RD' city='MECHANICSBURG' state= 'PA' zip= '17055-0000' lat= '40.216174' long= '-76.9938109' />
+    <storeLocatorViewNew id='822' storeName='GIANT' address='901 S WEST END BLVD' city='QUAKERTOWN' state= 'PA' zip= '18951-0000' lat= '40.421496' long= '-75.3460581' />
+    <storeLocatorViewNew id='823' storeName='GIANT' address='2641 MACARTHUR ROAD' city='WHITEHALL' state= 'PA' zip= '18052-0000' lat= '40.647626' long= '-75.4916819' />
+    <storeLocatorViewNew id='824' storeName='GIANT' address='3926 LINDEN ST/UNIT24' city='BETHLEHEM' state= 'PA' zip= '18020-0000' lat= '40.6742121' long= '-75.3438201' />
+    
+    <storeLocatorViewNew id='829' storeName='GIANT' address='4357 WEST SWAMP ROAD' city='DOYLESTOWN' state= 'PA' zip= '18901-0000' lat= '40.3321591' long= '-75.1359869' />
+
+    <storeLocatorViewNew id='831' storeName='GIANT' address='4320 N.5TH STR HGHWAY' city='TEMPLE' state= 'PA' zip= '19560-0000' lat= '40.3988915' long= '-75.9275692' />
+   
+    <storeLocatorViewNew id='835' storeName='GIANT' address='315 YORK ROAD' city='WILLOW GROVE' state= 'PA' zip= '19090-0000' lat= '40.1471655' long= '-75.1145004' />
+
+    <storeLocatorViewNew id='846' storeName='GIANT' address='116 W.TOWNSHP LINE RD' city='HAVERTOWN' state= 'PA' zip= '19083-0000' lat= '39.9672921' long= '-75.2999117' />
+    <storeLocatorViewNew id='847' storeName='GIANT' address='925 NORLAND AVE' city='CHAMBERSBURG' state= 'PA' zip= '17201-0000' lat= '39.9403203' long= '-77.6282983' />
+   
+    <storeLocatorViewNew id='849' storeName='GIANT' address='1540 COWPATH RD S.110' city='HATFIELD' state= 'PA' zip= '19440-0000' lat= '40.2728938' long= '-75.2887038' />
+    <storeLocatorViewNew id='850' storeName='GIANT' address='4655 PERKIOMEN AVE' city='READING' state= 'PA' zip= '19606-0000' lat= '40.3080974' long= '-75.8583348' />
+    <storeLocatorViewNew id='851' storeName='GIANT' address='2300 LINGLESTOWN RD' city='HARRISBURG' state= 'PA' zip= '17110-0000' lat= '40.33127' long= '-76.861811' />
+    <storeLocatorViewNew id='852' storeName='GIANT' address='180 UPLAND SQUARE DR' city='STOWE' state= 'PA' zip= '19464-0000' lat= '40.2697216' long= '-75.6555439' />
+    <storeLocatorViewNew id='853' storeName='GIANT' address='205 GLEN DRIVE' city='MANCHESTER' state= 'PA' zip= '17345-0000' lat= '40.0446164' long= '-76.7260075' />
+    <storeLocatorViewNew id='854' storeName='GIANT' address='330 MARKETPLACE BLVD' city='SELINSGROVE' state= 'PA' zip= '17870-0000' lat= '40.8418452' long= '-76.8358484' />
+
+    <storeLocatorViewNew id='856' storeName='GIANT' address='3560 RT 611 SUITE 105' city='BARTONSVILLE' state= 'PA' zip= '18321-9386' lat= '41.0117291' long= '-75.2910401' />
+    <storeLocatorViewNew id='857' storeName='GIANT' address='7150 HAMILTON BLVD' city='TREXLERTOWN' state= 'PA' zip= '18087-0000' lat= '40.5487182' long= '-75.5960488' />
+    <storeLocatorViewNew id='858' storeName='GIANT' address='2074 FRUITVILLE PIKE' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.0757578' long= '-76.3255942' />
+    <storeLocatorViewNew id='859' storeName='GIANT' address='801 BALTIMORE STREET' city='HANOVER' state= 'PA' zip= '17331-0000' lat= '39.7877268' long= '-76.9693769' />
+    <storeLocatorViewNew id='860' storeName='GIANT' address='173 HOLLY RD SUITE 10' city='GILBERTSVILLE' state= 'PA' zip= '19525-0000' lat= '40.335195' long= '-75.61914' />
+    <storeLocatorViewNew id='861' storeName='GIANT' address='721 W. SPROUL ROAD' city='SPRINGFIELD' state= 'PA' zip= '19064-0000' lat= '39.9343057' long= '-75.3511792' />
+    <storeLocatorViewNew id='862' storeName='GIANT' address='1000 LOGAN BLD STE108' city='ALTOONA' state= 'PA' zip= '16602-0000' lat= '40.4741405' long= '-78.4027443' />
+    <storeLocatorViewNew id='863' storeName='GIANT' address='2550 GRANT AVENUE' city='PHILADELPHIA' state= 'PA' zip= '19114-0000' lat= '40.0789508' long= '-75.0262921' />
+    <storeLocatorViewNew id='864' storeName='GIANT' address='86 GLOCKER WAY' city='POTTSTOWN' state= 'PA' zip= '19465-0000' lat= '40.2084777' long= '-75.6578905' />
+    <storeLocatorViewNew id='865' storeName='GIANT' address='611 MAIN STREET' city='HARLEYSVILLE' state= 'PA' zip= '19438-0000' lat= '40.285701' long= '-75.392225' />
+    <storeLocatorViewNew id='866' storeName='GIANT' address='200 TOWN CENTER' city='NEW BRITAIN' state= 'PA' zip= '18901-0000' lat= '40.2975173' long= '-75.1894646' />
+    <storeLocatorViewNew id='867' storeName='GIANT' address='1153 N. 5TH STREET' city='PERKASIE' state= 'PA' zip= '18944-0000' lat= '40.3823511' long= '-75.2785899' />
+    <storeLocatorViewNew id='868' storeName='GIANT' address='5858 EASTON ROAD' city='PLUMSTEADVILLE' state= 'PA' zip= '18949-0000' lat= '40.3862895' long= '-75.1465545' />
+    <storeLocatorViewNew id='869' storeName='GIANT' address='1465-7 W.BROAD STREET' city='QUAKERTOWN' state= 'PA' zip= '18951-0000' lat= '40.4437144' long= '-75.3575719' />
+    <storeLocatorViewNew id='870' storeName='GIANT' address='225 LANCASTER AVENUE' city='FRAZER' state= 'PA' zip= '19355-0000' lat= '40.042209' long= '-75.542342' />
+    <storeLocatorViewNew id='871' storeName='GIANT' address='168 EAGLEVIEW BLVD' city='EXTON' state= 'PA' zip= '19341-0000' lat= '40.0504975' long= '-75.6646045' />
+    <storeLocatorViewNew id='872' storeName='GIANT' address='1502 W. CHESTER PIKE' city='WEST CHESTER' state= 'PA' zip= '19382-0000' lat= '39.966035' long= '-75.5280686' />
+    <storeLocatorViewNew id='873' storeName='GIANT' address='3 DOUBLEWOODS ROAD' city='LANGHORNE' state= 'PA' zip= '19047-0000' lat= '40.2187507' long= '-74.9243201' />
+    <storeLocatorViewNew id='874' storeName='GIANT' address='10 EAST RIDGE PIKE' city='CONSHOHOCKEN' state= 'PA' zip= '19428-0000' lat= '40.0933554' long= '-75.285674' />
+    <storeLocatorViewNew id='875' storeName='GIANT' address='1605 LITITZ PIKE' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.0681091' long= '-76.3073359' />
+    <storeLocatorViewNew id='876' storeName='GIANT' address='789 EAST MAIN ST' city='MT JOY' state= 'PA' zip= '17552-0000' lat= '40.1092345' long= '-76.4860957' />
+    <storeLocatorViewNew id='877' storeName='GIANT' address='15100 KUTZTOWN ROAD' city='KUTZTOWN' state= 'PA' zip= '19530-0000' lat= '40.505308' long= '-75.7909448' />
+
+    
+    <storeLocatorViewNew id='887' storeName='GIANT' address='832 EAST MAIN STREET' city='EPHRATA' state= 'PA' zip= '17522-0000' lat= '40.165647' long= '-76.15921' />
+    <storeLocatorViewNew id='888' storeName='GIANT' address='1055 BUSTLETON PIKE' city='FEASTERVILLE' state= 'PA' zip= '19053-0000' lat= '40.1531664' long= '-75.0015741' />
+    <storeLocatorViewNew id='889' storeName='GIANT' address='1375 BOOT ROAD' city='WEST CHESTER' state= 'PA' zip= '19380-0000' lat= '39.9987767' long= '-75.5677055' />
+    <storeLocatorViewNew id='890' storeName='GIANT' address='50 E. WYNNEWOOD RD' city='WYNNEWOOD' state= 'PA' zip= '19096-0000' lat= '40.0017638' long= '-75.2737778' />
+    <storeLocatorViewNew id='891' storeName='GIANT' address='550 E. LANCASTER AVE' city='SAINT DAVIDS' state= 'PA' zip= '19087-0000' lat= '40.0399899' long= '-75.370129' />
+    <storeLocatorViewNew id='892' storeName='GIANT' address='737 HUNTINGDON PIKE' city='HUNTINGDON VALLEY' state= 'PA' zip= '19006-0000' lat= '40.086423' long= '-75.09224' />
+    <storeLocatorViewNew id='893' storeName='GIANT' address='1121 BETHLEHEM PIKE' city='SPRING HOUSE' state= 'PA' zip= '19477-0000' lat= '40.1899032' long= '-75.2250166' />
+    <storeLocatorViewNew id='894' storeName='GIANT' address='950 BALTIMORE PIKE' city='SPRINGFIELD' state= 'PA' zip= '19064-0000' lat= '39.9154652' long= '-75.342149' />
+    <storeLocatorViewNew id='895' storeName='GIANT' address='310 S. HENDERSON RD' city='KING OF PRUSSIA' state= 'PA' zip= '19406-0000' lat= '40.0915486' long= '-75.3577139' />
+    <storeLocatorViewNew id='896' storeName='GIANT' address='1925 NORRISTOWN RD' city='MAPLE GLEN' state= 'PA' zip= '19002-0000' lat= '40.1785572' long= '-75.1820637' />
+    <storeLocatorViewNew id='897' storeName='GIANT' address='2395 YORK ROAD' city='JAMISON' state= 'PA' zip= '18929-0000' lat= '40.25849' long= '-75.0850194' />
+    <storeLocatorViewNew id='898' storeName='GIANT' address='2890 S. EAGLE RD' city='NEWTOWN' state= 'PA' zip= '18940-0000' lat= '40.2352932' long= '-74.9418302' />
+    <storeLocatorViewNew id='899' storeName='GIANT' address='830 E. BALTIMORE PIKE' city='KENNETT SQUARE' state= 'PA' zip= '19348-0000' lat= '39.860889' long= '-75.6849712' />
+    <storeLocatorViewNew id='900' storeName='GIANT' address='168 N.FLOWERS MILL RD' city='LANGHORNE' state= 'PA' zip= '19047-0000' lat= '40.180325' long= '-74.9074488' />
+    <storeLocatorViewNew id='901' storeName='GIANT' address='2350 SUSQUEHANNA RD' city='ROSLYN' state= 'PA' zip= '19001-0000' lat= '40.12122' long= '-75.135355' />
+    <storeLocatorViewNew id='902' storeName='GIANT' address='4275 COUNTY LINE RD' city='CHALFONT' state= 'PA' zip= '18914-0000' lat= '40.2662536' long= '-75.2266041' />
+    <storeLocatorViewNew id='903' storeName='GIANT' address='467 SUMNEYTOWN PIKE' city='NORTH WALES' state= 'PA' zip= '19454-0000' lat= '40.216609' long= '-75.2918893' />
+    <storeLocatorViewNew id='904' storeName='GIANT' address='107 SOUTH MAIN ST' city='NORTH WALES' state= 'PA' zip= '19454-0000' lat= '40.211122' long= '-75.277726' />
+    <storeLocatorViewNew id='905' storeName='GIANT' address='1874 BETHLEHEM PIKE' city='FLOURTOWN' state= 'PA' zip= '19031-0000' lat= '40.1099799' long= '-75.2139677' />
+    <storeLocatorViewNew id='906' storeName='GIANT' address='4855 W CHESTER PIKE' city='NEWTOWN' state= 'PA' zip= '19073-0000' lat= '39.975241' long= '-75.440652' />
+    <storeLocatorViewNew id='907' storeName='GIANT' address='10000 SHANNONDELL DR' city='AUDUBON' state= 'PA' zip= '19403-0000' lat= '40.1345413' long= '-75.4136649' />
+    <storeLocatorViewNew id='908' storeName='GIANT' address='RICHMOND SQUARE' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.1057797' long= '-76.334358' />
+    <storeLocatorViewNew id='909' storeName='GIANT' address='2339 OREGON PIKE' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.0891731' long= '-76.2809332' />
+    <storeLocatorViewNew id='910' storeName='GIANT' address='300 CENTERVILLE ROAD' city='LANCASTER' state= 'PA' zip= '17601-0000' lat= '40.04946' long= '-76.394874' />
+    <storeLocatorViewNew id='911' storeName='GIANT' address='424 YORK ROAD' city='WILLOW GROVE' state= 'PA' zip= '19090-0000' lat= '40.149263' long= '-75.115391' />
+    <storeLocatorViewNew id='912' storeName='GIANT' address='3481 CONCORD ROAD' city='ASTON' state= 'PA' zip= '19014-0000' lat= '39.866396' long= '-75.424394' />
+    
+</store>
